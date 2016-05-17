@@ -2,7 +2,7 @@
 # image but to make sure the config is done.
 # Data is stored under /var/hyperledger/db and /var/hyperledger/production
 
-FROM yeasy/hyperledger:latest
+FROM mikezaccardo/hyperledger:latest
 MAINTAINER Baohua Yang
 
 RUN cd $GOPATH/src/github.com/hyperledger/fabric/membersrvc \
